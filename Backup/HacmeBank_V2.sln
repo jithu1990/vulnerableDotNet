@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HacmeBank_V2_Website", "http://127.0.0.1/HacmeBank_V2_Website/HacmeBank_V2_Website.csproj", "{449608A6-5401-4CBD-807E-71FF43C8D625}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9B67AC58-4F20-4C23-951C-37F22B6039C6} = {9B67AC58-4F20-4C23-951C-37F22B6039C6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HacmeBank_v2_WS", "http://127.0.0.1/HacmeBank_v2_WS/HacmeBank_v2_WS.csproj", "{9B67AC58-4F20-4C23-951C-37F22B6039C6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{449608A6-5401-4CBD-807E-71FF43C8D625}.Debug.ActiveCfg = Debug|.NET
+		{449608A6-5401-4CBD-807E-71FF43C8D625}.Debug.Build.0 = Debug|.NET
+		{449608A6-5401-4CBD-807E-71FF43C8D625}.Release.ActiveCfg = Release|.NET
+		{449608A6-5401-4CBD-807E-71FF43C8D625}.Release.Build.0 = Release|.NET
+		{9B67AC58-4F20-4C23-951C-37F22B6039C6}.Debug.ActiveCfg = Debug|.NET
+		{9B67AC58-4F20-4C23-951C-37F22B6039C6}.Debug.Build.0 = Debug|.NET
+		{9B67AC58-4F20-4C23-951C-37F22B6039C6}.Release.ActiveCfg = Release|.NET
+		{9B67AC58-4F20-4C23-951C-37F22B6039C6}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

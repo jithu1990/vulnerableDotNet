@@ -1,0 +1,702 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{449608A6-5401-4CBD-807E-71FF43C8D625}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "HacmeBank_v2_Website"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "HacmeBank_v2_Website"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "true"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Code_development_Notes.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "_misc\ascxDebug.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "_misc\ascxDebug.aspx.cs"
+                    DependentUpon = "ascxDebug.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "_misc\ascxDebug.aspx.resx"
+                    DependentUpon = "ascxDebug.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "_misc\ThreatIssue.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "_misc\ThreatIssue.aspx.cs"
+                    DependentUpon = "ThreatIssue.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "_misc\ThreatIssue.aspx.resx"
+                    DependentUpon = "ThreatIssue.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\_AdminLeftMenu.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\_AdminLeftMenu.ascx.cs"
+                    DependentUpon = "_AdminLeftMenu.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\_AdminLeftMenu.ascx.resx"
+                    DependentUpon = "_AdminLeftMenu.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\_Footer.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\_Footer.ascx.cs"
+                    DependentUpon = "_Footer.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\_Footer.ascx.resx"
+                    DependentUpon = "_Footer.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\_LeftMenu.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\_LeftMenu.ascx.cs"
+                    DependentUpon = "_LeftMenu.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\_LeftMenu.ascx.resx"
+                    DependentUpon = "_LeftMenu.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\_TopMenu.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\_TopMenu.ascx.cs"
+                    DependentUpon = "_TopMenu.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\_TopMenu.ascx.resx"
+                    DependentUpon = "_TopMenu.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\AccountTransfer.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\AccountTransfer.ascx.cs"
+                    DependentUpon = "AccountTransfer.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\AccountTransfer.ascx.resx"
+                    DependentUpon = "AccountTransfer.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\AdminSection.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\AdminSection.ascx.cs"
+                    DependentUpon = "AdminSection.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\AdminSection.ascx.resx"
+                    DependentUpon = "AdminSection.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\Loan.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\Loan.ascx.cs"
+                    DependentUpon = "Loan.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\Loan.ascx.resx"
+                    DependentUpon = "Loan.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\MyAccountForm.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\MyAccountForm.ascx.cs"
+                    DependentUpon = "MyAccountForm.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\MyAccountForm.ascx.resx"
+                    DependentUpon = "MyAccountForm.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\PasswordChange.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\PasswordChange.ascx.cs"
+                    DependentUpon = "PasswordChange.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\PasswordChange.ascx.resx"
+                    DependentUpon = "PasswordChange.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\PostMessageForm.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\PostMessageForm.ascx.cs"
+                    DependentUpon = "PostMessageForm.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\PostMessageForm.ascx.resx"
+                    DependentUpon = "PostMessageForm.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\TransactionDetails.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\TransactionDetails.ascx.cs"
+                    DependentUpon = "TransactionDetails.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\TransactionDetails.ascx.resx"
+                    DependentUpon = "TransactionDetails.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\Welcome.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\Welcome.ascx.cs"
+                    DependentUpon = "Welcome.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\Welcome.ascx.resx"
+                    DependentUpon = "Welcome.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\admin\Fetch_Web_Page.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\admin\Fetch_Web_Page.ascx.cs"
+                    DependentUpon = "Fetch_Web_Page.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\admin\Fetch_Web_Page.ascx.resx"
+                    DependentUpon = "Fetch_Web_Page.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\admin\Manage_Accounts.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\admin\Manage_Accounts.ascx.cs"
+                    DependentUpon = "Manage_Accounts.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\admin\Manage_Accounts.ascx.resx"
+                    DependentUpon = "Manage_Accounts.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\admin\Manage_Messages.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\admin\Manage_Messages.ascx.cs"
+                    DependentUpon = "Manage_Messages.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\admin\Manage_Messages.ascx.resx"
+                    DependentUpon = "Manage_Messages.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\admin\Manage_Users.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\admin\Manage_Users.ascx.cs"
+                    DependentUpon = "Manage_Users.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\admin\Manage_Users.ascx.resx"
+                    DependentUpon = "Manage_Users.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\admin\Sql_Query.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\admin\Sql_Query.ascx.cs"
+                    DependentUpon = "Sql_Query.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\admin\Sql_Query.ascx.resx"
+                    DependentUpon = "Sql_Query.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\admin\Web_Services.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\admin\Web_Services.ascx.cs"
+                    DependentUpon = "Web_Services.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\admin\Web_Services.ascx.resx"
+                    DependentUpon = "Web_Services.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "aspx\Login.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\Login.aspx.cs"
+                    DependentUpon = "Login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "aspx\Login.aspx.resx"
+                    DependentUpon = "Login.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "aspx\Main.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\Main.aspx.cs"
+                    DependentUpon = "Main.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "aspx\Main.aspx.resx"
+                    DependentUpon = "Main.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "aspx\images\blueheader_bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\blueheaderblank.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\clear.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\hacme_header.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\header_hacmebank.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\nav_arrows.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\onlinebanking.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\red_arrows.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\rowheader_bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\shadow_txtbox.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\shadow_txtfield.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\top_blue_menu.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\login\bottom.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\login\bottom_old.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\login\bottombg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\login\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "aspx\images\login\top.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aspx\images\login\topbg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "classes\AccountManagement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "classes\AdminFunctions.cs"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "classes\ascxThreadingIssue.cs"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "classes\dataClasses.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "classes\Gui.cs"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "classes\UserManagement.cs"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "classes\UsersCommunity.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "css\FoundStoneBank.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "httpModules\HttpModule_errorHandeling.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "httpModules\HttpModule_onlyAllowLocalAccess.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Web References\WS_AccountManagement\AccountManagement.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\WS_AccountManagement\AccountManagement.wsdl"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\WS_AccountManagement\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.cs"
+                />
+                <File
+                    RelPath = "Web References\WS_AccountManagement\Reference.cs"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <Folder
+                    RelPath = "Web References\WS_AccountManagement\"
+                    WebReferenceUrl = "http://192.168.1.10/HacmeBank_v2_WS/WebServices/AccountManagement.asmx"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\WS_UserManagement\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.cs"
+                />
+                <File
+                    RelPath = "Web References\WS_UserManagement\Reference.cs"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\WS_UserManagement\UserManagement.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\WS_UserManagement\UserManagement.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\WS_UserManagement\"
+                    WebReferenceUrl = "http://192.168.1.10/HacmeBank_v2_WS/WebServices/UserManagement.asmx"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\WS_UsersCommunity\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.cs"
+                />
+                <File
+                    RelPath = "Web References\WS_UsersCommunity\Reference.cs"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\WS_UsersCommunity\UsersCommunity.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\WS_UsersCommunity\"
+                    WebReferenceUrl = "http://192.168.1.10/HacmeBank_v2_WS/WebServices/UsersCommunity.asmx?WSDL"
+                    UrlBehavior = "Static"
+                />
+                <Folder
+                    RelPath = "Web References\"
+                    WebReferences = "TRUE"
+                />
+                <File
+                    RelPath = "xml\info.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xsl\info.xsl"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

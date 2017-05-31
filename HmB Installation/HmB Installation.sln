@@ -1,0 +1,70 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HacmeBank_V2_Website", "http://127.0.0.1/HacmeBank_V2_Website/HacmeBank_V2_Website.csproj", "{449608A6-5401-4CBD-807E-71FF43C8D625}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HacmeBank_v2_WS", "http://127.0.0.1/HacmeBank_v2_WS/HacmeBank_v2_WS.csproj", "{9B67AC58-4F20-4C23-951C-37F22B6039C6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Hacme Bank Database Setup", "Hacme Bank Database Setup\Hacme Bank Database Setup.vbproj", "{36389485-AF32-4EB2-BD86-A167F8AA8653}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Foundstone Hacme Bank WebService v2.0", "Hacme Bank WebService Setup\Hacme Bank WebService Setup.vdproj", "{4373792A-AE2B-4834-AAE7-1DC67C062D59}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Foundstone Hacme Bank Website v2.0", "Hacme Bank Website Setup\Hacme Bank Website Setup.vdproj", "{63621C4F-8DA7-4E06-8806-1DC453748ACD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4373792A-AE2B-4834-AAE7-1DC67C062D59} = {4373792A-AE2B-4834-AAE7-1DC67C062D59}
+		{9B67AC58-4F20-4C23-951C-37F22B6039C6} = {9B67AC58-4F20-4C23-951C-37F22B6039C6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectName0 = $/HmB\u0020Installation
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:SourceGear\u0020Vault\u0020Client
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection0 = HmB\u0020Installation\\
+		SolutionUniqueID = {E3064AB7-AA2D-4F0D-810E-5E9DBBEBA332}
+		SccProjectUniqueName1 = Hacme\u0020Bank\u0020Database\u0020Setup\\Hacme\u0020Bank\u0020Database\u0020Setup.vbproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = HmB\u0020Installation\\Hacme\u0020Bank\u0020Database\u0020Setup\\
+		SccProjectUniqueName2 = Hacme\u0020Bank\u0020Website\u0020Setup\\Hacme\u0020Bank\u0020Website\u0020Setup.vdproj
+		SccLocalPath2 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = HmB\u0020Installation\\Hacme\u0020Bank\u0020Website\u0020Setup\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{449608A6-5401-4CBD-807E-71FF43C8D625}.Debug.ActiveCfg = Debug|.NET
+		{449608A6-5401-4CBD-807E-71FF43C8D625}.Debug.Build.0 = Debug|.NET
+		{449608A6-5401-4CBD-807E-71FF43C8D625}.Release.ActiveCfg = Release|.NET
+		{449608A6-5401-4CBD-807E-71FF43C8D625}.Release.Build.0 = Release|.NET
+		{9B67AC58-4F20-4C23-951C-37F22B6039C6}.Debug.ActiveCfg = Debug|.NET
+		{9B67AC58-4F20-4C23-951C-37F22B6039C6}.Debug.Build.0 = Debug|.NET
+		{9B67AC58-4F20-4C23-951C-37F22B6039C6}.Release.ActiveCfg = Release|.NET
+		{9B67AC58-4F20-4C23-951C-37F22B6039C6}.Release.Build.0 = Release|.NET
+		{36389485-AF32-4EB2-BD86-A167F8AA8653}.Debug.ActiveCfg = Debug|.NET
+		{36389485-AF32-4EB2-BD86-A167F8AA8653}.Debug.Build.0 = Debug|.NET
+		{36389485-AF32-4EB2-BD86-A167F8AA8653}.Release.ActiveCfg = Release|.NET
+		{36389485-AF32-4EB2-BD86-A167F8AA8653}.Release.Build.0 = Release|.NET
+		{4373792A-AE2B-4834-AAE7-1DC67C062D59}.Debug.ActiveCfg = Debug
+		{4373792A-AE2B-4834-AAE7-1DC67C062D59}.Release.ActiveCfg = Release
+		{63621C4F-8DA7-4E06-8806-1DC453748ACD}.Debug.ActiveCfg = Debug
+		{63621C4F-8DA7-4E06-8806-1DC453748ACD}.Debug.Build.0 = Debug
+		{63621C4F-8DA7-4E06-8806-1DC453748ACD}.Release.ActiveCfg = Release
+		{63621C4F-8DA7-4E06-8806-1DC453748ACD}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

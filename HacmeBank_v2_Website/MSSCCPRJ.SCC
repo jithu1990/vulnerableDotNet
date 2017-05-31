@@ -1,0 +1,5 @@
+SCC = This is a source code control file
+
+[HacmeBank_v2_Website.csproj]
+SCC_Aux_Path = https://172.23.16.222:8443/VaultService|:19
+SCC_Project_Name = $/HacmeBank_v2_Website
